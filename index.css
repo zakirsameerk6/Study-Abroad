@@ -150,7 +150,7 @@ nav {
 /*-------------------------- Home Section-------------------------------------------------------------------------------------------*/
 .home-section 
 {
-    background-image: url('images/background-img.webp');
+    background-image: url('background-img.webp');
     background-size: cover;
     background-position: center;
     color: black;
