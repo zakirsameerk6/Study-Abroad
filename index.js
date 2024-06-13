@@ -46,17 +46,17 @@ function toggleViewMore() {
   if (!moreUniversitiesLoaded) {
     const moreUniversities = [
       {
-        img: 'images/universities/10004.jpg',
+        img: 'universities10004.jpg',
         name: 'Shaheed Monsur Ali Medical College,Dhaka',
         description: 'TOTAL FEE (Rs.) 3,520,000.00 <br>TOTAL FEE ($) 44,000.00'
       },
       {
-        img: 'images/universities/10005.jpg',
+        img: 'universities10005.jpg',
         name: 'International Medical College & Hospital,Dhaka',
         description: 'TOTAL FEE (Rs.) 3,680,000.00 <br>TOTAL FEE ($)46,000.00'
       },
       {
-        img: 'images/universities/10006.png',
+        img: 'universities10006.png',
         name: 'Z H Sikder Women Medical College,Dhaka',
         description: 'TOTAL FEE (Rs.) ₹3,360,000.00 <br>TOTAL FEE ($)42,000.00'
       }
@@ -102,4 +102,3 @@ function toggleLearnMore(button) {
     button.textContent = "Learn More";
   }
 }
-//////-///////////----contect us--////////////////////////////////////////------------------------
