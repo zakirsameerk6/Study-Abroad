@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/background-img.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+}
+.cross-btn {
+    position: fixed;
+    font-size: 40px;
+    color: #333;
+    text-decoration: none;
+    z-index: 9999;
+    margin-left: 320px;
+    margin-top: -55px;
+}
+
+.cross-btn:hover {
+    color:  #45a049;
+}
+
+
+.login-container {
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-top: 50px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.additional-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.additional-options a {
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.additional-options a:hover {
+    color: #45a049;
+}
+
+.social-login {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-login h3 {
+    margin-bottom: 10px;
+}
+
+.social-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#facebook-login {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+#facebook-login:hover {
+    background-color: #344e86;
+}
+
+#google-login {
+    background-color: #db4437;
+    color: #fff;
+}
+
+#google-login:hover {
+    background-color: #c33d2e;
+}
